@@ -32,6 +32,33 @@
     text-decoration-line: none;
     padding: 0 1.5rem;
 }
+.menu_link {
+    display: block;
+    padding: 8px;
+    background: rgba(50, 50, 50, 0.9);
+    color: #fff;
+    height: 40px;
+    border-bottom: 1px solid white;
+    list-style: none;
+    font-size: 1rem;
+}
+.menu :hover {
+    background: #fff;
+    color: black;
+}
+.showMenu {
+    left: 0;
+}
+
+.nav {
+    position: absolute;
+    top: 156px;
+    left: -100%;
+    width: 100%;
+    z-index: 100;
+    transition: all 0.5s;
+}
+
 .main_picture {
     background-image: url("/img/calgary_lake.jpg");
     background-size: 100% auto;
