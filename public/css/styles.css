@@ -14,8 +14,8 @@
     box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, .35);
 }
 .nav_container img {
-    margin: 1em 0 0.7em 1em;
-    width: 15%;
+    margin: 1rem 0 0.7rem 0.5rem;
+    width: 150px;
     height: 15%;
     padding: 0.5rem 1rem;
 }
@@ -25,12 +25,41 @@
     padding: 8rem 1.5rem 0 0;
 }
 .nav_menu a {
+    display: none;
     color: rgb(49, 48, 48);
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     list-style: none;
     text-decoration-line: none;
     padding: 0 1.5rem;
+}
+.icon_menu {
+    color: rgb(49, 48, 48);
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6rem 1.5rem 0 0;
+}
+.nav {
+    position: absolute;
+    text-align: right;
+    top: 156px;
+    right: -100%;
+    width: 100%;
+    z-index: 100;
+    transition: all 0.5s;
+}
+.nav ul {
+    list-style: none;
+}
+.nav a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
 .menu_link {
     display: block;
@@ -47,18 +76,8 @@
     color: black;
 }
 .showMenu {
-    left: 0;
+    right: 0;
 }
-
-.nav {
-    position: absolute;
-    top: 156px;
-    left: -100%;
-    width: 100%;
-    z-index: 100;
-    transition: all 0.5s;
-}
-
 .main_picture {
     background-image: url("/img/calgary_lake.jpg");
     background-size: 100% auto;
@@ -77,12 +96,11 @@
 .booking_window {
     font-family: 'Roboto', sans-serif;
     width: auto;
-    padding: 2rem 2rem;
     height: auto;
-    margin: 0;
     background-color: rgb(241, 241, 248);
 }
 .booking_window  h1 {
+    font-size: 1rem;
     text-align: center;
     color: rgb(2, 2, 2);
     padding: 0 0 1rem 0;
@@ -153,4 +171,17 @@ footer li {
     font-size: 0.8em;
     padding: 1rem 1rem;
     line-height: 0.4rem;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 760px) {
+    .nav_menu{
+        display: none;
+    }
+    
 }
