@@ -14,7 +14,6 @@
     box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, .35);
 }
 .nav_container img {
-<<<<<<< HEAD
     width: 100px;    
     height: 100%;
     padding: 0.5rem 0.5rem;
@@ -30,8 +29,6 @@
     border-radius: 5px;
     cursor: pointer;
     padding: 3rem 1.5rem 0 0;
-=======
->>>>>>> 397b484ce364beafb248f7e305b70568677d30df
     margin: 1rem 0 0.7rem 0.5rem;
     width: 150px;
     height: 15%;
@@ -51,7 +48,6 @@
     text-decoration-line: none;
     padding: 0 1.5rem;
 }
-<<<<<<< HEAD
 
 .nav {
     position: absolute;
@@ -61,10 +57,7 @@
     width: 100%;
     z-index: 100;
     transition: all 1s;
-
 }
-=======
->>>>>>> 397b484ce364beafb248f7e305b70568677d30df
 .icon_menu {
     color: rgb(49, 48, 48);
     display: block;
@@ -110,7 +103,6 @@
 }
 .showMenu {
     right: 0;
-<<<<<<< HEAD
 
 }
 .nav ul {
@@ -121,9 +113,7 @@
     font-family: 'Roboto', sans-serif;
 
 }
-=======
-}
->>>>>>> 397b484ce364beafb248f7e305b70568677d30df
+
 .main_picture {
     background-image: url("/img/calgary_lake.jpg");
     background-size: 100% auto;
