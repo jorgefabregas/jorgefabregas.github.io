@@ -18,29 +18,15 @@
     height: 100%;
     padding: 0.5rem 0.5rem;
 }
-.icon_menu {
-    color: rgb(49, 48, 48);
-    display: block;
-    width: 40px;
-    height: 40px;
-    font-size: 30px;
-    text-align: center;
-    line-height: 45px;
-    border-radius: 5px;
-    cursor: pointer;
-    padding: 3rem 1.5rem 0 0;
-    margin: 1rem 0 0.7rem 0.5rem;
-    width: 150px;
-    height: 15%;
-    padding: 0.5rem 1rem;
+.nav_menu {
+    display: inline-block;
 }
-.nav_menu ul {
-    display: none;
+.nav_menu > ul {
+    display: inline-block;
     list-style: none;
-    padding: 8rem 1.5rem 0 0;
 }
 .nav_menu a {
-    display: none;
+    display: inline-block;
     color: rgb(49, 48, 48);
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
@@ -48,16 +34,6 @@
     text-decoration-line: none;
     padding: 0 1.5rem;
 }
-
-.nav {
-    position: absolute;
-    text-align: right;
-    top: 100px;
-    right: -100%;
-    width: 100%;
-    z-index: 100;
-    transition: all 1s;
-}
 .icon_menu {
     color: rgb(49, 48, 48);
     display: block;
@@ -68,12 +44,12 @@
     line-height: 45px;
     border-radius: 5px;
     cursor: pointer;
-    padding: 6rem 1.5rem 0 0;
+    padding: 1.7rem 1rem 0 0;
 }
 .nav {
     position: absolute;
     text-align: right;
-    top: 156px;
+    top: 100px;
     right: -100%;
     width: 100%;
     z-index: 100;
@@ -103,17 +79,7 @@
 }
 .showMenu {
     right: 0;
-
 }
-.nav ul {
-    list-style: none;
-}
-.nav a {
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-
-}
-
 .main_picture {
     background-image: url("/img/calgary_lake.jpg");
     background-size: 100% auto;
@@ -127,19 +93,22 @@
     width: auto;
     height: auto;
     background-color: rgb(241, 241, 248);
-    margin: 9rem auto auto 0;
+    margin: 9rem auto 1rem 1rem;
 }
 .booking_window  h1 {
     font-size: 1rem;
     text-align: center;
     font-size: 1rem;
     color: rgb(2, 2, 2);
-    padding: 0 0 1rem 0;
+    padding: 1rem;
+}
+.where {
+    padding: 0 0 0 1rem;
 }
 .where p {
     padding: 1rem 0 0 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 0.6rem;
     font-weight: 400;
     color: black;
 }
@@ -147,16 +116,22 @@
     list-style: none;
 }
 .checkin {
-    display: flex;
+    display: inline-block;
+    padding: 0 0 0 1rem;
 }
-.checkin p {
+.checkout {
+    display: inline-block;
+    padding: 0 0 0 1rem;
+}
+
+.checkin, .checkout p {
     padding: 1rem 0 0 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    font-size: 0.6rem;
     font-weight: 400;
     color: black;
 }
-.checkin li {
+.checkin, .checkout li {
     list-style: none;
 }
 .login {
@@ -210,9 +185,11 @@ footer li {
 
 
 
-@media screen and (min-width: 760px) {
-    .nav_menu{
+/*@media screen and (min-width: 760px) {
+}
+
+@media screen and (min-width: 900) {
+    .icon_menu{
         display: none;
     }
-    
-}
+}*/
