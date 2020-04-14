@@ -26,6 +26,13 @@ app.get("/about",(req,res)=>{
     }) 
 });
 
+app.get("/finding",(req,res)=>{ 
+    res.render("finding",{ 
+        title: "Find a Home", 
+        description: "Find a Home in JoyBB" 
+    }) 
+});
+
 app.get("/login",(req,res)=>{ 
     res.render("login",{ 
         title: "Log In ", 
