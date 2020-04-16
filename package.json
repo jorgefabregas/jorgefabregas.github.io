@@ -1,17 +1,25 @@
 {
   "name": "airbnb_project",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jorge Fabregas",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgefabregas/airbnb_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jorgefabregas/airbnb_project/issues"
+  },
+  "homepage": "https://github.com/jorgefabregas/airbnb_project#readme",
+  "description": ""
 }
